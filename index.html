@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M Square Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+
+    <style>
+        /* CSS RESET */
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url("images/photo-1605296867304-46d5465a13f1.jpg");
+        }
+        .left{
+            /* border: 2px solid red; */
+            /* width: 30px; */
+            /* padding: 12px 15px; */
+            display: inline-block;
+            position:  absolute;
+            left: 34px;
+            top: 20px;
+            margin: auto;
+
+        }
+        .left img{
+            width: 100px;
+            margin: 0px 50px;
+            
+        }
+        .left div{
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .mid{
+            /* border: 2px solid red; */
+            /* margin:  30px auto; */
+            display: block;
+            width: 50%;
+            margin: 20px auto;
+            top: 20px;
+            /* text-align: center; */
+            /* list-style: none; */
+            /* text-decoration: none; */
+        }
+        .right{
+            /* border: 2px solid red; */
+            display: inline-block;
+            position:  absolute;
+            right: 34px;
+            top: 20px;
+            margin: auto;
+
+        }
+        .btn{
+            margin: 0px;
+            padding: 14px 30px;
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            border-radius: 15px;
+            border: 2px solid grey;
+            cursor: pointer;
+
+        }
+        .btn:hover{
+            color: gray;
+            text-decoration: underline;
+        }
+        .navbar{
+            display: inline-block;
+            /* border-radius: 10px; */
+
+        }
+        .navbar li {
+            display: inline-block;
+            font-size: 17px;
+        }
+        .navbar li a{
+            
+            color: white;
+            text-decoration: none;
+            padding: 24px 30px;
+            font-family: 'Libre Franklin', sans-serif;
+            /* font-size:25px; */
+        }
+        .navbar li a:hover,.navbar li a :active{
+            
+            color: gray;
+            text-decoration: underline;
+        
+        }
+        .container{
+            border:2px solid white;
+            background-color:black;
+            width: 20%;
+            margin:9% 48%;
+            padding: 40px 30px;
+            border-radius: 40px;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            border: 2px solid white;
+            width: 50%;
+            padding: 8px;
+            margin: 10px auto;
+            border-radius: 15px;
+    font-size: 20px;
+}
+        
+        .container button{
+
+            display: block;
+            margin:20px auto;
+            width: 52%;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left"> 
+            <img src="images/bodybuilding-concept-with-gorilla_225004-372.jpg" alt="">
+            <div>MK Square Fitness</div>
+        </div>
+        <div class="mid"> 
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Fitness Tips</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+        <button class="btn"> Call us Now</button>
+        <button class="btn"> Email</button>
+        
+        </div>
+        <div class="container">
+            <h1>Join the best Gym of Chandigarh Now</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                <input type="text" name=""  placeholder="Enter the Name">
+                <input type="text" name=""  placeholder="Enter the Age">
+                <input type="text" name=""  placeholder="Enter The Gender">
+                <input type="text" name=""  placeholder="Enter Locality ">
+                <input type="text" name=""  placeholder="Enter the phone number">
+                <input type="text" name=""  placeholder="Enter Your Email Id ">
+                <button class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </header>
+   
+    
+</body>
+</html>
